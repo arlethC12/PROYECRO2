@@ -1,0 +1,59 @@
+* {
+    padding: 1;
+    margin: 1;
+}
+
+.navbar {
+    background-color: #f5a5d4; /* Color de fondo para el nav */
+}
+
+.navbar-nav {
+    list-style: none; /* Estilo de las listas del nav */
+}
+
+.nav-item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Espacio inferior entre tablas */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Borde inferior en celdas */
+}
+
+th {
+    background-color: #f2f2f2; /* Color de fondo para encabezados */
+}
+.nav-link {
+    height: 60px;
+    background-color: rgb(233, 203, 226);
+    display: block;
+    border-left: 10px solid rgb(42, 99, 184);
+    border-right: 5px solid rgb(212, 165, 179);
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(19, 11, 11);
+}
+
+.nav-link:hover {
+    margin-left: 10px;
+    color: azure;
+    background-color: rgb(73, 10, 10);
+    box-shadow: 10px 10px 20px blueviolet;
+    transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+
+body {
+    background-color: rgb(138, 119, 156);
+font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
